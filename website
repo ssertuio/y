@@ -1,0 +1,92 @@
+/website
+├── index.html
+├── about.html
+├── styles.css
+└── script.js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Home Page</h2>
+        <p>This is the main content of the homepage.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Our Story</h2>
+        <p>This page tells the story of our website.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("Website is ready!");
+});
